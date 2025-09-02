@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Air Quality Checker</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #f5f5f5;
+            padding: 20px;
+        }
+        form {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            width: 300px;
+            margin: auto;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        input, button {
+            width: 100%;
+            margin-top: 10px;
+            padding: 8px;
+            box-sizing: border-box;
+            font-size: 16px;
+        }
+        button {
+            background-color: #007BFF;
+            border: none;
+            color: white;
+            cursor: pointer;
+            border-radius: 5px;
+            font-weight: bold;
+        }
+        button:hover {
+            background-color: #0056b3;
+        }
+        h2 {
+            text-align: center;
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+    <h2>Air Quality Prediction</h2>
+    <form action="/predict" method="post">
+    <input type="number" name="PM2.5" placeholder="PM2.5" step="any" required>
+    <input type="number" name="PM10" placeholder="PM10" step="any" required>
+    <input type="number" name="NO2" placeholder="NO2" step="any" required>
+    <input type="number" name="SO2" placeholder="SO2" step="any" required>
+    <input type="number" name="O3" placeholder="O3" step="any" required>
+    <input type="number" name="CO" placeholder="CO" step="any" required>
+    <input type="number" name="City" placeholder="City (Encoded)" required>
+    <button type="submit">Predict</button>
+</form>
+</body>
+</html>
