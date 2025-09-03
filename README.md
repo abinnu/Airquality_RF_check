@@ -42,11 +42,11 @@ This project focuses on:
 
 🧠 Tech Stack
 
-Programming Language → Python 
-Machine Learning → Scikit-learn
-Data Processing → Pandas, NumPy
-Visualization → Matplotlib, Seaborn
-Deployment → Docker
+* Programming Language → Python 
+* Machine Learning → Scikit-learn
+* Data Processing → Pandas, NumPy
+* Visualization → Matplotlib, Seaborn
+* Deployment → Docker
 
 
 📊 Model Evaluation
