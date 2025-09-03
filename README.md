@@ -10,8 +10,11 @@ The Airquality_RF_check project is a Machine Learning-based classification syste
 This project focuses on :
 
 🧹 Cleaning and preprocessing real-world air quality data
+
 🌳 Training a Random Forest model for classification
+
 📊 Evaluating performance using multiple metrics 
+
 🌐 Deploying the model for real-time predictions
 
 
@@ -29,33 +32,42 @@ This project focuses on :
    Air Quality Index (AQI) – target label
 
 * Target Classes :
-  🌿 Good 
-  🌤 Moderate
-  🌫 Unhealthy
-  🌪 Very Unhealthy
+  🌿 Good,
+  🌤 Moderate,
+  🌫 Unhealthy,
+  🌪 Very Unhealthy,
   ☠️ Hazardous
 
 
-🚀 Features
+🚀 Features :
 
 ✅ Data Cleaning & Missing Value Handling
+
 ✅ Feature Engineering & Label Encoding
+
 ✅ Model Training using Random Forest
+
 ✅ Hyperparameter Tuning for Better Accuracy
+
 ✅ Model Evaluation using Multiple Metrics
+
 ✅ Dockerized Deployment for Real-time Predictions
 
 
-🧠 Tech Stack
+🧠 Tech Stack :
 
 * Programming Language → Python 
+
 * Machine Learning → Scikit-learn
+
 * Data Processing → Pandas, NumPy
+
 * Visualization → Matplotlib, Seaborn
+
 * Deployment → Docker
 
 
-📊 Model Evaluation
+📊 Model Evaluation :
 
 | Metric        | Score |
 | ------------- | ----- |
@@ -65,7 +77,7 @@ This project focuses on :
 | **F1-Score**  | 93%   |
 
 
-🌐 Deployment (Dockerized)
+🌐 Deployment (Dockerized) :
 
 1️⃣ Build Docker Image
 docker build -t ml-airquality-app .
@@ -78,10 +90,9 @@ Open your browser and visit:
 http://localhost:5000
 
 
-🤝 Contribution  
+🤝 Contribution :
 
 Contributions are welcome! 🎉  
-
 If you'd like to improve this project, feel free to:
 
 - **Fork** the repository 🍴  
@@ -91,7 +102,7 @@ If you'd like to improve this project, feel free to:
 Your feedback, ideas, and suggestions are always appreciated! 🙌
 
 
-👨‍💻 Author
+👨‍💻 Author :
 
 Abinnu John Peter.P
 
