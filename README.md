@@ -13,6 +13,7 @@ This project focuses on:
 📊 Evaluating performance using multiple metrics 
 🌐 Deploying the model for real-time predictions
 
+
 📂 Dataset
 
 * Source: [Kaggle - Air Quality Data](https://www.kaggle.com/datasets)
@@ -28,6 +29,7 @@ This project focuses on:
   🌪 Very Unhealthy
   ☠️ Hazardous
 
+
 🚀 Features
 
 ✅ Data Cleaning & Missing Value Handling
@@ -37,6 +39,7 @@ This project focuses on:
 ✅ Model Evaluation using Multiple Metrics
 ✅ Dockerized Deployment for Real-time Predictions
 
+
 🧠 Tech Stack
 
 Programming Language → Python 
@@ -44,6 +47,7 @@ Machine Learning → Scikit-learn
 Data Processing → Pandas, NumPy
 Visualization → Matplotlib, Seaborn
 Deployment → Docker
+
 
 📊 Model Evaluation
 
@@ -67,6 +71,7 @@ docker run -d -p 5000:5000 ml-airquality-app
 Open your browser and visit:
 http://localhost:5000
 
+
 🤝 Contribution  
 
 Contributions are welcome! 🎉  
@@ -77,6 +82,7 @@ If you'd like to improve this project, feel free to:
 - **Submit a pull request** 🚀  
 
 Your feedback, ideas, and suggestions are always appreciated! 🙌
+
 
 👨‍💻 Author
 
