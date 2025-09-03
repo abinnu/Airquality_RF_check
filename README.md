@@ -9,64 +9,64 @@ The Airquality_RF_check project is a Machine Learning-based classification syste
 
 This project focuses on :
 
-🧹 Cleaning and preprocessing real-world air quality data
+  🧹 Cleaning and preprocessing real-world air quality data
 
-🌳 Training a Random Forest model for classification
+  🌳 Training a Random Forest model for classification
 
-📊 Evaluating performance using multiple metrics 
+  📊 Evaluating performance using multiple metrics 
 
-🌐 Deploying the model for real-time predictions
+  🌐 Deploying the model for real-time predictions
 
 
 📂 Dataset :
 
-* Source: [Kaggle - Air Quality Data](https://www.kaggle.com/datasets)
+  * Source: [Kaggle - Air Quality Data](https://www.kaggle.com/datasets)
   
-* Shape:  52705 rows × 10 features
+  * Shape:  52705 rows × 10 features
 
-* Features :
+  * Features :
   
-   PM2.5, PM10, NO2, CO, SO2, O3 – pollutant levels
+       PM2.5, PM10, NO2, CO, SO2, O3 – pollutant levels
   
-   Temperature, Humidity, Wind Speed – weather indicators
+       Temperature, Humidity, Wind Speed – weather indicators
 
-   Air Quality Index (AQI) – target label
+       Air Quality Index (AQI) – target label
 
-* Target Classes :
+  * Target Classes :
   
-  🌿 Good,
-  🌤 Moderate,
-  🌫 Unhealthy,
-  🌪 Very Unhealthy,
-  ☠️ Hazardous
+    🌿 Good,
+    🌤 Moderate,
+    🌫 Unhealthy,
+    🌪 Very Unhealthy,
+    ☠️ Hazardous
 
 
 🚀 Features :
 
-✅ Data Cleaning & Missing Value Handling
+   ✅ Data Cleaning & Missing Value Handling
 
-✅ Feature Engineering & Label Encoding
+   ✅ Feature Engineering & Label Encoding
 
-✅ Model Training using Random Forest
+   ✅ Model Training using Random Forest
 
-✅ Hyperparameter Tuning for Better Accuracy
+   ✅ Hyperparameter Tuning for Better Accuracy
 
-✅ Model Evaluation using Multiple Metrics
+   ✅ Model Evaluation using Multiple Metrics
 
-✅ Dockerized Deployment for Real-time Predictions
+   ✅ Dockerized Deployment for Real-time Predictions
 
 
 🧠 Tech Stack :
 
-* Programming Language → Python 
+   * Programming Language → Python 
 
-* Machine Learning → Scikit-learn
+   * Machine Learning → Scikit-learn
 
-* Data Processing → Pandas, NumPy
+   * Data Processing → Pandas, NumPy
 
-* Visualization → Matplotlib, Seaborn
+   * Visualization → Matplotlib, Seaborn
 
-* Deployment → Docker
+   * Deployment → Docker
 
 
 📊 Model Evaluation :
@@ -81,33 +81,35 @@ This project focuses on :
 
 🌐 Deployment (Dockerized) :
 
-1️⃣ Build Docker Image
-docker build -t ml-airquality-app .
+   1️⃣ Build Docker Image
+   
+   docker build -t ml-airquality-app .
 
-2️⃣ Run Docker Container
-docker run -d -p 5000:5000 ml-airquality-app
+  2️⃣ Run Docker Container
+
+   docker run -d -p 5000:5000 ml-airquality-app
 
 3️⃣ Access the App
-Open your browser and visit:
-http://localhost:5000
+
+   Open your browser and visit:http://localhost:5000
 
 
 🤝 Contribution :
 
-Contributions are welcome! 🎉  
-If you'd like to improve this project, feel free to:
+   Contributions are welcome! 🎉  
+   If you'd like to improve this project, feel free to:
 
-- **Fork** the repository 🍴  
-- **Create a feature branch**  
-- **Submit a pull request** 🚀  
+   - **Fork** the repository 🍴  
+   - **Create a feature branch**  
+   - **Submit a pull request** 🚀  
 
 Your feedback, ideas, and suggestions are always appreciated! 🙌
 
 
 👨‍💻 Author :
 
-Abinnu John Peter.P
+   Abinnu John Peter.P
 
-📧 Email: abinnu75@gmail.com
+   📧 Email: abinnu75@gmail.com
 
-🔗 LinkedIn : www.linkedin.com/in/abinnu
+   🔗 LinkedIn : www.linkedin.com/in/abinnu
