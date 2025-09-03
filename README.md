@@ -25,6 +25,7 @@ This project focuses on :
 * Shape:  52705 rows × 10 features
 
 * Features :
+  
    PM2.5, PM10, NO2, CO, SO2, O3 – pollutant levels
   
    Temperature, Humidity, Wind Speed – weather indicators
@@ -32,6 +33,7 @@ This project focuses on :
    Air Quality Index (AQI) – target label
 
 * Target Classes :
+  
   🌿 Good,
   🌤 Moderate,
   🌫 Unhealthy,
