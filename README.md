@@ -76,6 +76,7 @@ http://localhost:5000
 🤝 Contribution  
 
 Contributions are welcome! 🎉  
+
 If you'd like to improve this project, feel free to:
 
 - **Fork** the repository 🍴  
@@ -88,5 +89,7 @@ Your feedback, ideas, and suggestions are always appreciated! 🙌
 👨‍💻 Author
 
 Abinnu John Peter.P
+
 📧 Email: abinnu75@gmail.com
+
 🔗 LinkedIn : www.linkedin.com/in/abinnu
