@@ -6,6 +6,7 @@
 
 The Airquality_RF_check project is a Machine Learning-based classification system that predicts air quality levels based on various environmental factors. Using a Random Forest Classifier, the model analyzes pollutant concentrations and weather conditions to classify air quality into different categories.
 
+
 This project focuses on:
 
 🧹 Cleaning and preprocessing real-world air quality data
@@ -22,7 +23,7 @@ This project focuses on:
    PM2.5, PM10, NO2, CO, SO2, O3 – pollutant levels
    Temperature, Humidity, Wind Speed – weather indicators
    Air Quality Index (AQI) – target label
-*Target Classes:
+* Target Classes:
   🌿 Good 
   🌤 Moderate
   🌫 Unhealthy
