@@ -96,7 +96,7 @@ This project focuses on :
 
 🤝 Contribution :
 
-   Contributions are welcome! 🎉, If you'd like to improve this project, feel free to :
+   Contributions are welcome! 🎉, If you'd like to improve this project, Feel free to :
 
    - **Fork** the repository 🍴  
    - **Create a feature branch**  
