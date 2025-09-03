@@ -2,12 +2,12 @@
 
 🌿 Air Quality Classification using Random Forest
 
-📌 Overview
+📌 Overview : 
 
 The Airquality_RF_check project is a Machine Learning-based classification system that predicts air quality levels based on various environmental factors. Using a Random Forest Classifier, the model analyzes pollutant concentrations and weather conditions to classify air quality into different categories.
 
 
-This project focuses on:
+This project focuses on :
 
 🧹 Cleaning and preprocessing real-world air quality data
 🌳 Training a Random Forest model for classification
@@ -15,15 +15,20 @@ This project focuses on:
 🌐 Deploying the model for real-time predictions
 
 
-📂 Dataset
+📂 Dataset :
 
 * Source: [Kaggle - Air Quality Data](https://www.kaggle.com/datasets)
+  
 * Shape:  52705 rows × 10 features
-* Features:
+
+* Features :
    PM2.5, PM10, NO2, CO, SO2, O3 – pollutant levels
+  
    Temperature, Humidity, Wind Speed – weather indicators
+
    Air Quality Index (AQI) – target label
-* Target Classes:
+
+* Target Classes :
   🌿 Good 
   🌤 Moderate
   🌫 Unhealthy
