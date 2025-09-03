@@ -53,7 +53,7 @@ clf.fit(xtrain,ytrain)
 import joblib 
 
 path = "D:/project_classification/deployment/ml-airquality-app/model/RandomForest.pkl"
-joblib.dump(clf,path)
+joblib.dump(clf,path,compress=3)
 
 ypred = clf.predict(xtest)
 
@@ -74,6 +74,7 @@ from sklearn.metrics import classification_report
 
 CR = classification_report(ytest,ypred) 
 CR
+
 
 
 
