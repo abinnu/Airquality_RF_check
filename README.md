@@ -93,6 +93,17 @@ This project focuses on :
 
    Open your browser and visit:http://localhost:5000
 
+## Air Quality Classification Dashboard
+
+This interactive Tableau dashboard visualizes air quality data and AQI classification using a Random Forest model. It includes:
+
+- City-wise AQI levels
+- AQI trends over time
+- Pollutant contributions (PM2.5, PM10, NO2, SO2)
+- KPI cards showing model accuracy
+
+🔗 [View Dashboard on Tableau Public](https://public.tableau.com/app/profile/abinnu.peter/viz/Airquality_Dashboard/Dashboard1)
+
 
 🤝 Contribution :
 
